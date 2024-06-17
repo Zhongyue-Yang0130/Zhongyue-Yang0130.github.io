@@ -79,13 +79,23 @@ hr {
     margin-top: -60px;
     margin-left:75px;
     margin-right:70px;
+    margin-bottom: 40px;
     
 }
-.second content{
-    width:100%;
+.container{
+    display:flex;
+    justify-content: center;
 }
-.second content h1{
-    font-size: 1px;
+.header{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.second content p{
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 }
@@ -127,3 +137,85 @@ hr {
     height: 80%;
     border-radius:10px;
 }
+.hobby2{
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+.title{
+    width:40%;
+    margin-right:75px;
+}
+.title h1{
+    font-size: 40px;
+    width: 100%;
+    margin-left:-2px;
+}
+.title p{
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.6;
+    word-spacing:0.1em;
+}
+
+.Snowboarder{
+    padding-top: 50px;
+    width: 45%;
+    align-items: start;
+    margin-left: 75px;
+ 
+
+}
+.Snowboarder img {
+    width: 90%;
+    height: 80%;
+    border-radius:10px;
+}
+.button-display {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: gray; /* Blue background */
+    color: white;           /* White text */
+    padding: 10px 20px;     /* Padding around the text */
+    border: none;           /* No border */
+    border-radius: 5px;     /* Rounded corners */
+    cursor: pointer;        /* Pointer cursor on hover */
+   
+  
+  }
+  button:hover {
+    background-color: black; /* Darker background on hover */
+  }
+
+.hr {
+    margin-top: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; /* Adjusts the padding */
+
+    font-family: Arial, sans-serif; /* Font style */
+}
+footer p {
+    font-size: 20px;
+    color: black;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.social-icons a {
+    color: black; /* Icon color */
+    text-decoration: none; /* Removes underline from icons */
+    margin: 0 10px; /* Space between icons */
+    font-size: 24px; /* Size of icons */
+    margin-right: 18px;
+  }
