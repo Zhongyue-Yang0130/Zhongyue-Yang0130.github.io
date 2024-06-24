@@ -204,12 +204,13 @@ footer {
 
     font-family: Arial, sans-serif; /* Font style */
 }
-footer p {
+footer a {
     font-size: 20px;
     color: black;
     margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    text-decoration: none;
 
 }
 .social-icons a {
@@ -219,3 +220,72 @@ footer p {
     font-size: 24px; /* Size of icons */
     margin-right: 18px;
   }
+
+
+.portfolio-container{
+    display: flex;
+    align-items: left;
+    
+}
+.portfolio-intro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+
+.portfolio-sub {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 75px;
+    margin: top -25px;
+    color:gray;
+
+}
+
+.portfolio-content {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Divides the header into two columns */
+    align-items: center;
+    margin-left: 75px;
+    margin-top:100px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.project1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:gray;
+    margin-top: -25px;
+}
+.project1 a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: None;
+    color:black;
+}
+.project2{
+    margin-left:83px;
+    margin-right: 75px;
+}
+.project2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:gray;
+    margin-top: -25px;
+}
+.portfolio-content1 {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Divides the header into two columns */
+    align-items: center;
+    margin-left: 75px;
+    margin-top:10px;
+}
+
+.Image-placeholder{
+    width:700px;
+    height:400px;
+    background-color:black;
+}
